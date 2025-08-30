@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 105, 105);
+    padding: 20px 50px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+    font-family: 'Asimovian', sans-serif;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.logo a,.menu{
+    display: flex;
+    gap: 10px;
+}
